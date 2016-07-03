@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace SignalRDatabaseValueChanges.Repository
 {
-    public class JobRepository
+    public class JobRepository : Hub
     {
         public IEnumerable<JobInfos> GetData()
         {
